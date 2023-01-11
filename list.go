@@ -14,7 +14,7 @@ func (l *ListCommand) Execute(args []string) error {
 	}
 
 	for _, trigger := range triggers {
-		fmt.Println(trigger.Name)
+		fmt.Println(trigger.ID, " | ", trigger.Name)
 	}
 
 	return nil
